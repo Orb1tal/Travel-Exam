@@ -1,0 +1,64 @@
+.hero {
+    position: relative;
+    background-image: url(../../img/hero.jpg);
+    background-repeat: no-repeat;
+    height: 719px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text {
+    position: absolute;
+    color: $font-color--title;
+
+    h1 {
+        font-size: 48px;
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 1.2;
+        letter-spacing: 0.1em;
+    }
+
+    p {
+        margin-bottom: 50px;
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 1.2;
+        letter-spacing: 0.31em;
+    }
+}
+
+.menu {
+    background-color: $bg-color--body;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 1110px;
+    color: $font-color--title;
+
+    a {
+        color: $font-color--title;
+    }
+}
+
+.menu-nav__items {
+    display: inline;
+}
+
+input {
+    width: 652px;
+    height: 61px;
+    text-align: center;
+}
+
+.search-btn {
+    font-family: $font-family--secondary;
+    background-color: $bg-color--body;
+    position: relative;
+    top: 4px;
+    width: 146px;
+    height: 61px;
+}
